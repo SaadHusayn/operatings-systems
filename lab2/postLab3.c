@@ -20,7 +20,7 @@ void readDataFromFile(int *temp, int *n, char filename[]){
         char ch;
         while((ch = fgetc(fptr)) != EOF){
             if(isdigit(ch)){
-                temp[*n] = (temp[*n] * 10) + (ch - '0');
+                temp[*n] = (temp[*n] * 10) + (ch - '0'); 
             }else{
                 *n = *n + 1;
             }
@@ -28,7 +28,15 @@ void readDataFromFile(int *temp, int *n, char filename[]){
     }
 }
 
+void writeToFile(int missingNum){
+    FILE *fptr = fopen("postLab3Output.txt", "w");
 
+    if(fptr != NULL){
+        fprintf(fptr, "%d", missingNum);
+    }
+
+    fclose(fptr);
+}
 int main(int argc, char *argv[]){
     if(argc != 1){
         int *temp = (int *)calloc(100, sizeof(int)); //arbitary size of 100, all initialized with zero
@@ -37,7 +45,7 @@ int main(int argc, char *argv[]){
         readDataFromFile(temp, &n, argv[1]);
 
         int missingNum = getMissingNum(temp, n);
-        printf("The missing num is %d\n", missingNum);
+        writeToFile(missingNum);
 
         
     }else{

@@ -32,6 +32,7 @@ int isNumber(char const* const text) {
            (first_character >= '0' && first_character <= '9');
 }
 
+
 int getMissingNum(int *temp, int n){
     int diff = temp[1] - temp[0];
     for(int i=1;i<n;i++){
