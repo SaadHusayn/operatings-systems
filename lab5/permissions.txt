@@ -1,0 +1,30 @@
+to change ownership (user or group):
+
+sudo chown user filename/directoryname
+
+sudo chown username:groupname filename/directoryname
+
+
+
+permissions:
+
+drwxrwxr-x
+
+d (directory or not)
+r read
+w write
+x execute
+
+first 3: owner
+second 3: group
+last 3: other users
+
+to change permission (of file/directory)
+
+chmod 777(any octal no of 3 digit) filename/directoryname
+
+MSB rwx for owner
+
+middle digit: rwx for group
+
+LSB: rwx for other users
