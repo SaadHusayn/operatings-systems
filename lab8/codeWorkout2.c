@@ -8,7 +8,7 @@ void * runner(void *arguments){
     printf("%s: begin\n", (char *)arguments);
     int i;
     
-    // int counter = 0;
+    int counter = 0;
     for(int i=0;i<1e7;i++){
         counter ++;
     }

@@ -11,7 +11,7 @@ void * runner(void *arguments){
             sum += i;
         }
     }
-    return (void *)(int)444;
+    return (void *)(int)42;
 }
 
 int main(int argc, char *argv[]){
