@@ -1,0 +1,24 @@
+\n\n
+\n\n
+\n\n
+\n\n
+arr[i-1] = atoi(argv[i]); arr[j+1] = temp; arr[j] = arr[j+1]; for(int i=0;i<argc-1;i++) printf("%d ", arr[i]); for(int i=1;i<argc;i++){ if(arr[j+1] < arr[j]) { int *arr = (int *)malloc((argc-1) aa.x.gz archives.tar.gz archive.tar.gz command-line-arguments command-line-arguments.c dest.txt executable filing filing.c first.c first.o first.s forking forking.c headerfile.h logs.txt Makefile nnn.txt script2.sh script.sh second.c second.o src.txt syscalling syscalling.c sizeof(int)); int main(int argc, char *argv[]){ sort(arr, argc-1); temp = arr[j]; void sort(int *arr, int size){\n\n
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, aspernatur ut. Quo porro laborum fugit\n\n
+\n\n
+\n\n
+buffer[bytes_read] = '\0'; char buffer[101]; }else if(bytes_read == 0){ if(bytes_read < 0){ int bytes_read = read(fd, buffer, sizeof(buffer) - 1); int bytes_written = write(fd1, buffer, bytes_read); int main(){ perror("read");\n\n
+#include "headerfile.h" int main(){ //this file just calls the function\n\n
+\n\n
+.align 8 .align 8 .align 8 call myfunc@PLT .cfi_def_cfa 7, 8 .cfi_def_cfa_offset 16 .cfi_def_cfa_register 6 .cfi_startproc .globl main main: movl $0, %eax .section .note.gnu.property,"a" .section .note.GNU-stack,"",@progbits .size main, .-main .type main, @function\n\n
+\n\n
+#include<sys/wait.h> int main(){ //parent process printf("Child 2: ppid=%d, random no is %d\n", getppid(), rand() % 100); printf("Parent: All child processes completed\n"); srand(time(NULL)); wait(NULL); wait(NULL);\n\n
+//headerfile contain only function prototype\n\n
+clean: ./executable executable: first.o second.o gcc first.o second.o -o executable rm -rf executable\n\n
+\n\n
+#!/bin/bash echo "${processed_data}\n\n" >> logs.txt echo "done processing all files" output_content=$(grep "a" $input_file | sort -n) process_data() { processed_data=$(process_data $file)\n\n
+echo "backup created successfully"\n\n
+#include "headerfile.h" //this file includes headerfile and contains function definition\n\n
+\n\n
+inventore non voluptates consequuntur quia velit perferendis? Nam iusto fugiat dolore, ducimus dolorum provident. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad, aspernatur ut. Quo porro laborum fugit perspiciatis\n\n
+\n\n
+char cwd[1024]; #include<sys/wait.h> int error_code = execlp("./executable", "./executable", NULL); int main(){ system("cat first.s | less");\n\n

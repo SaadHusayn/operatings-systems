@@ -1,0 +1,3 @@
+contents of myfile.txt
+
+Mon Mar  3 07:23:04 PM PKT 2025
